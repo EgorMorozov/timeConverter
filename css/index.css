@@ -1,6 +1,7 @@
 body {
     background-color: #e980f2;
-}
-input {
+} #time {
     border:5px solid #000000;
+    width: 300px;
 }
+
