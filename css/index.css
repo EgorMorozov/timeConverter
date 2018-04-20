@@ -21,7 +21,7 @@ section {
 }
 
 #time {
-    border:3px ridge #E980F2;
+    border:3px inset #E980F2;
     border-radius:8px;
     width: 300px;
     margin: auto;
