@@ -1,7 +1,38 @@
-body {
+section {
+    border: 2px solid black;
+    border-radius: 2em;
+    padding-left: 0;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
     background-color: #e980f2;
-} #time {
-    border:5px solid #000000;
-    width: 300px;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin: auto;
 }
 
+#inputTime {
+    text-align: center;
+}
+
+#time {
+    border:5px solid #000000;
+    width: 300px;
+    margin: auto;
+}
+
+@media (min-width: 992px) {
+    section {
+        width: 42%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+}
